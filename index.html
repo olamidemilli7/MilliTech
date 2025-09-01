@@ -1,144 +1,738 @@
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
+><meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="HTTrack is an easy-to-use website mirror utility. It allows you to download a World Wide website from the Internet to a local directory,building recursively all structures, getting html, images, and other files from the server to your computer. Links are rebuiltrelatively so that you can freely browse to the local site (works with any browser). You can mirror several sites together so that you can jump from one toanother. You can, also, update an existing mirror site, or resume an interrupted download. The robot is fully configurable, with an integrated help" />
-	<meta name="keywords" content="httrack, HTTRACK, HTTrack, winhttrack, WINHTTRACK, WinHTTrack, offline browser, web mirror utility, aspirateur web, surf offline, web capture, www mirror utility, browse offline, local  site builder, website mirroring, aspirateur www, internet grabber, capture de site web, internet tool, hors connexion, unix, dos, windows 95, windows 98, solaris, ibm580, AIX 4.0, HTS, HTGet, web aspirator, web aspirateur, libre, GPL, GNU, free software" />
-	<title>Local index - HTTrack Website Copier</title>
-  <!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
-	<style type="text/css">
-	<!--
-
-body {
-	margin: 0;  padding: 0;  margin-bottom: 15px;  margin-top: 8px;
-	background: #77b;
-}
-body, td {
-	font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-	}
-
-#subTitle {
-	background: #000;  color: #fff;  padding: 4px;  font-weight: bold; 
-	}
-
-#siteNavigation a, #siteNavigation .current {
-	font-weight: bold;  color: #448;
-	}
-#siteNavigation a:link    { text-decoration: none; }
-#siteNavigation a:visited { text-decoration: none; }
-
-#siteNavigation .current { background-color: #ccd; }
-
-#siteNavigation a:hover   { text-decoration: none;  background-color: #fff;  color: #000; }
-#siteNavigation a:active  { text-decoration: none;  background-color: #ccc; }
-
-
-a:link    { text-decoration: underline;  color: #00f; }
-a:visited { text-decoration: underline;  color: #000; }
-a:hover   { text-decoration: underline;  color: #c00; }
-a:active  { text-decoration: underline; }
-
-#pageContent {
-	clear: both;
-	border-bottom: 6px solid #000;
-	padding: 10px;  padding-top: 20px;
-	line-height: 1.65em;
-	background-image: url(backblue.gif);
-	background-repeat: no-repeat;
-	background-position: top right;
-	}
-
-#pageContent, #siteNavigation {
-	background-color: #ccd;
-	}
-
-
-.imgLeft  { float: left;   margin-right: 10px;  margin-bottom: 10px; }
-.imgRight { float: right;  margin-left: 10px;   margin-bottom: 10px; }
-
-hr { height: 1px;  color: #000;  background-color: #000;  margin-bottom: 15px; }
-
-h1 { margin: 0;  font-weight: bold;  font-size: 2em; }
-h2 { margin: 0;  font-weight: bold;  font-size: 1.6em; }
-h3 { margin: 0;  font-weight: bold;  font-size: 1.3em; }
-h4 { margin: 0;  font-weight: bold;  font-size: 1.18em; }
-
-.blak { background-color: #000; }
-.hide { display: none; }
-.tableWidth { min-width: 400px; }
-
-.tblRegular       { border-collapse: collapse; }
-.tblRegular td    { padding: 6px;  background-image: url(fade.gif);  border: 2px solid #99c; }
-.tblHeaderColor, .tblHeaderColor td { background: #99c; }
-.tblNoBorder td   { border: 0; }
-
-
-// -->
-</style>
-
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>MilliTech</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- Fonts (google font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&amp;family=Urbanist:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Magnific-popup stylesheet -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Owl Carousel stylesheet -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- Owl theme stylesheet -->
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- MeanMenu stylesheet -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- Animated headline stylesheet -->
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+    <!-- Imgal stylesheet -->
+    <link rel="stylesheet" href="css/imgal.min.css">
+    <!-- font awesome stylesheet -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- AOS stylesheet -->
+    <link rel="stylesheet" href="css/aos.css">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<table width="76%" border="0" align="center" cellspacing="0" cellpadding="3" class="tableWidth">
-	<tr>
-	<td id="subTitle">HTTrack Website Copier - Open Source offline browser</td>
-	</tr>
-</table>
-<table width="76%" border="0" align="center" cellspacing="0" cellpadding="0" class="tableWidth">
-<tr class="blak">
-<td>
-	<table width="100%" border="0" align="center" cellspacing="1" cellpadding="0">
-	<tr>
-	<td colspan="6"> 
-		<table width="100%" border="0" align="center" cellspacing="0" cellpadding="10">
-		<tr> 
-		<td id="pageContent"> 
-<!-- ==================== End prologue ==================== -->
+<body class="home-one-body">
+    <main class="home overflow-x-hidden">
+        <!-- start header -->
+        <header class="bg-white header">
+            <!-- mobile header nav -->
+            <div class="mobile-menu d-block d-md-none">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#home-banner">Home</a></li>
+                        <li><a href="#home-banner">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container d-none d-md-block">
+                <div class="header-wrapper d-flex justify-content-between align-items-center">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/MilliTech Logo - Email Signature 2.png" alt="logo" style="height: 100px;  width: 300px;">
+                        </a>
+                    </div>
+                    <div class="header-menu-wrapper main-menu">
+                        <!-- nav menu -->
+                        <nav class="desktop-nav">
+                            <ul class="header-menu d-flex flex-row justify-content-center menu">
+                                <li class="px-3">
+                                    <a class="menu-link" href="#home-banner">Home</a>
+                                </li>
+                                <li class="px-3">
+                                    <a class="menu-link" href="#home-banner">About</a>
+                                </li>
+                                <li class="px-3">
+                                    <a class="menu-link" href="#services">Services</a>
+                                </li>
+                                <li class="px-3">
+                                    <a class="menu-link" href="#resume">Resume</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- header button -->
+                    <div class="header-btn-wrapper">
+                        <a class="btn orange-btn btn_effect" href="#contact">
+                            <span class="z-1 position-relative">contact us</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+        <!-- start banner -->
+        <section id="home-banner" class="home-banner position-relative">
+            <div class="container-fluid custom-container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="home-banner-wrapper row align-items-center">
+                            <div class="col-12 col-lg-6 col-xl-7 home-banner-text-col position-relative">
+                                <div class="sub-heading d-flex align-items-center">
+                                    <img src="img/orangeDot.png" alt="orange-dot">
+                                    <p>I AM DESIGNER</p>
+                                </div>
+                                <div class="animate-heading">
+                                    <h1 class="black-color h1 home-one-title ah-headline">Creative Design and Web <span
+                                        class="orange-color"><span class="ah-words-wrapper"> 
+                                            <b class="is-visible"> Solutions,</b>
+                                            <b>Design,</b>
+                                        </span></span> 
+                                        <br>
+                                    </h1>
+                                </div>
+                                <p class="h5 line-height-7 mt-20 secondary-black fw-400">
+                                    My name is <b>Animashaun Olamide Faruq</b>, I'm a passionate web developer with a strong foundation in HTML, CSS, JavaScript, and back-end technologies. I love building responsive, user-friendly, and functional websites. My mission is to transform ideas into reality using clean, efficient code and modern web practices.
+                                </p>
+                                <a class="btn_effect btn home-banner-btn orange-btn mt-50 mb-5" href="cv/Animashaun FaruqCV[1].docx">
+                                    <span class="z-1 position-relative">Download My CV</span>
+                                </a>
+                                <div class="banner-particle-one-container">
+                                    <img class="position-absolute banner-particle-one d-none d-lg-inline"
+                                        src="img/particleOne.png" alt="banner particle one">
+                                </div>
+                                <div class="banner-particle-two-container">
+                                    <img class="position-absolute banner-particle-two delay-one"
+                                        src="img/particleTwo.png" alt="banner particle two">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 col-xl-5 text-center position-relative home-banner-img-col">
+                                <div class="banner-particle-one-container">
+                                    <img class="position-absolute banner-particle-one d-lg-none"
+                                        src="img/particleOne.png" alt="banner particle one">
+                                </div>
 
-	<meta name="generator" content="HTTrack Website Copier/3.x">
-	<TITLE>Local index - HTTrack</TITLE>
-</HEAD>
-<BODY>
-<H1 ALIGN=Center>Index of locally available sites:</H1>
-	<TABLE BORDER="0" WIDTH="100%" CELLSPACING="1" CELLPADDING="0">
-		<TR>
-			<TD BACKGROUND="fade.gif">
-				&middot;
-					<A HREF="credesign.vercel.app/multiPage/index.html">
-						Home
-					</A>		
-			</TD>
-		</TR>
-	</TABLE>
-	<BR>
-	<BR>
-	<BR>
-  	<H6 ALIGN="RIGHT">
-	<I>Mirror and index made by HTTrack Website Copier [XR&amp;CO'2008]</I>
-	</H6>
-	<!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
-	<!-- Thanks for using HTTrack Website Copier! -->
-	<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=credesign.vercel.app/multiPage/index.html">
+                                <img class="position-absolute home-banner-shape bg-move-3d"
+                                    src="img/homeNannerShape.png" alt="banner-shape">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end home-banner -->
+        <!-- start about me -->
+        <section class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row align-items-center">
+                            <div class="about-text-col col-12 col-lg-6">
+                                <div class="about-text-top">
+                                    <div class="section-heading">
+                                        <div class="sub-heading d-flex align-items-center">
+                                            <img src="img/orangeDot.png" alt="orange-dot">
+                                        </div>
+                                        <h2 class="black-color line-height-3 h2">
+                                            I Can Design Anything You Want
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="row row-mobile-margin gy-3 gy-sm-0 mt-50">
+                                    <div class="col-12 col-sm-6 col-lg-6 d-flex align-items-center">
+                                        <div class="mr-10">
+                                            <img src="img/aboutIconOne.png" alt="about icon one">
+                                        </div>
+                                        <div class="about-complete-project">
+                                            <h4 class="fw-700 orange-color h4"><span class="counter">50</span>+</h4>
+                                            <h4 class="fw-500 black-color h4">Complete Project</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-6 d-flex align-items-center">
+                                        <div class="mr-10">
+                                            <img src="img/aboutIconTwo.png" alt="about icon two">
+                                        </div>
+                                        <div class="about-years-experience">
+                                            <h4 class="fw-700 orange-color h4"><span class="counter">4</span>+</h4>
+                                            <h4 class="fw-500 black-color h4">Year of experience</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1500"
+                                    class="row flex-column row-mobile-margin mt-50">
+                                    <div class="col-12 mb-0 mb-20 ">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-lg-6">
+                                                <div class="mb-20 d-flex align-items-center">
+                                                    <i class="fa-regular fa-square-check mr-10 h6 orange-color"></i>
+                                                    <p>Work simple and cline design</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-lg-6">
+                                                <div class="mb-20 d-flex align-items-center">
+                                                    <i class="fa-regular fa-square-check mr-10 h6 orange-color"></i>
+                                                    <p>Web Design Full stack</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-lg-6">
+                                                <div class="d-flex align-items-center mb-20">
+                                                    <i class="fa-regular fa-square-check mr-10 h6 orange-color"></i>
+                                                    <p>New idea and user friendly design</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fa-regular fa-square-check mr-10 h6 orange-color"></i>
+                                                    <p>Unlimited Revisions</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500"
+                                    class="btn btn_effect home-banner-btn orange-btn mt-50" href="cv/Animashaun FaruqCV[1].docx"><span
+                                        class="position-relative z-1">Download My CV</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end about me -->
+        <!-- start services -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-heading-middle">
+                            <div class="sub-heading d-flex align-items-center mx-auto">
+                                <img src="img/orangeDot.png" alt="orange-dot">
+                                <p>My Service</p>
+                            </div>
+                            <h2 class="black-color line-height-3 h2 text-uppercase text-center">
+                                Services I offer
+                            </h2>
+                        </div>
+                        <div class="service-grid-container mt-50 row-mobile-margin">
+                            <div class="service-grid-item text-center">
+                                <img class="service-item-img" src="img/serviceOne.png" alt="service-img-one">
+                                <h3 class="h3 fw-500 service-item-heading black-color">UI/UX Design</h3>
+                                <p class="p service-item-paragraph secondary-black fw-400 line-height-7">
+                                    We design intuitive and user-friendly interfaces that enhance user engagement and ensure seamless digital experiences across all devices.
+                                </p>
+                            </div>
+                            <div class="service-grid-item text-center">
+                                <img class="service-item-img" src="img/serviceTwo.png" alt="service-img-two">
+                                <h3 class="h3 fw-500 service-item-heading black-color">Mobile App</h3>
+                                <p class="p service-item-paragraph secondary-black fw-400 line-height-7">
+                                    We create powerful, scalable, and feature-rich mobile applications for Android and iOS, tailored to meet your business goals.
+                                </p>
+                            </div>
+                            <div class="service-grid-item text-center">
+                                <img class="service-item-img" src="img/serviceThree.png" alt="service-img-three">
+                                <h3 class="h3 fw-500 service-item-heading black-color">Graphic Design</h3>
+                                <p class="p service-item-paragraph secondary-black fw-400 line-height-7">
+                                    From logos to full brand identities, we craft compelling visual designs that communicate your message and leave lasting impressions.
+                                </p>
+                            </div>
+                            <div class="service-grid-item text-center">
+                                <img class="service-item-img" src="img/serviceFour.png" alt="service-img-four">
+                                <h3 class="h3 fw-500 service-item-heading black-color">Web Developer</h3>
+                                <p class="p service-item-paragraph secondary-black fw-400 line-height-7">
+                                    We build responsive, secure, and high-performing websites using modern web technologies—perfect for startups, businesses, and portfolios.
+                                </p>
+                            </div>
+                            <div class="service-grid-item text-center">
+                                <img class="service-item-img" src="img/serviceFive.png" alt="service-img-five">
+                                <h3 class="h3 fw-500 service-item-heading black-color">SEO Optimisation</h3>
+                                <p class="p service-item-paragraph secondary-black fw-400 line-height-7">
+                                    Boost your online visibility with our strategic SEO services, including keyword research, on-page optimization, and performance analytics.
+                                </p>
+                            </div>
+                            <div class="service-grid-item text-center">
+                                <img class="service-item-img" src="img/serviceSix.png" alt="service-img-six">
+                                <h3 class="h3 fw-500 service-item-heading black-color">WordPress Developer</h3>
+                                <p class="p service-item-paragraph secondary-black fw-400 line-height-7">
+                                    We specialize in creating custom WordPress themes and plugins that cater to your unique business needs.
+                                </p>
+                            </div>
+                            <div class="service-grid-item text-center">
+                                <img class="service-item-img" src="img/serviceSeven.png" alt="service-img-seven">
+                                <h3 class="h3 fw-500 service-item-heading black-color">App Development</h3>
+                                <p class="p service-item-paragraph secondary-black fw-400 line-height-7">
+                                    We build innovative and scalable applications for desktop and mobile platforms, aligning technology with your business vision.
+                                </p>
+                            </div>
+                            <div class="service-grid-item text-center">
+                                <img class="service-item-img" src="img/serviceEight.png" alt="service-img-eight">
+                                <h3 class="h3 fw-500 service-item-heading black-color">Business Strategy</h3>
+                                <p class="p service-item-paragraph secondary-black fw-400 line-height-7">
+                                    We help businesses grow with strategic digital planning, market analysis, and technology integration to ensure long-term success.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end services -->
+        <!-- start resume -->
+        <section id="resume" class="resume">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="resume-wrapper">
+                            <div class="section-heading-middle">
+                                <div class="sub-heading d-flex align-items-center mx-auto">
+                                    <img src="img/orangeDot.png" alt="orange-dot">
+                                    <p>My Resume</p>
+                                </div>
+                                <h2 class="black-color line-height-3 h2 text-uppercase text-center">
+                                    10+ YEARS OF EXPERIENCE
+                                </h2>
+                            </div>
+                            <div class="row mt-50 row-mobile-margin">
+                                <div class="col-12 col-lg-2">
+                                    <div
+                                        class="resume-topics h-100 flex-column justify-content-center position-relative">
+                                        <h3
+                                            class="h3 line-height-3 resume-topic-item resume-topic-one fw-500 text-black position-absolute">
+                                            Education</h3>
+                                        <h3
+                                            class="h3 line-height-3 resume-topic-item resume-topic-two fw-500 text-black position-absolute">
+                                            Software Skills
+                                        </h3>
+                                        <h3
+                                            class="h3 line-height-3 resume-topic-item resume-topic-three fw-500 text-black position-absolute">
+                                            Experience</h3>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-10">
+                                    <!-- resume education row -->
+                                    <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
+                                        class="resume-education bg-white">
+                                        <div class="row">
+                                            <!-- education column -->
+                                            <div class="col-lg-4 resume-first-item">
+                                                <h4 class="h4 text-black fw-500">
+                                                    BSc in Computer Science
+                                                </h4>
+                                                <p class="p secondary-black fw-400 line-height-7 mt-10">
+                                                    Ladoke Akintola University of Technology  (2015 - 2022)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- resume skills row -->
+                                    <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="800"
+                                        class="resume-skills bg-white mt-4">
+                                        <div class="row">
+                                            <!-- skills first column -->
+                                            <div class="col-lg-4 resume-first-item">
+                                                <h4 class="h4 text-black fw-500">
+                                                    Web Developer
+                                                </h4>
+                                                <div class="row mt-10 justify-content-between">
+                                                    <p
+                                                        class="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
+                                                        •	HTML5
+                                                    </p>
+                                                </div>
+                                                <div class="row justify-content-between mt-10">
+                                                    <p
+                                                        class="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
+                                                        •	CSS3
+                                                    </p>
+                                                </div>
+                                                <div class="row justify-content-between mt-10">
+                                                    <p
+                                                        class="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
+                                                        •	JavaScript
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!-- skills second column -->
+                                            <div class="col-lg-4 resume-second-item">
+                                                <br>
+                                                <div class="row mt-10 justify-content-between">
+                                                    <p
+                                                        class="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
+                                                        •	Bootstrap
+                                                    </p>
+                                                </div>
+                                                <div class="row justify-content-between mt-10">
+                                                    <p
+                                                        class="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
+                                                        •	CSS
+                                                    </p>
+                                                </div>
+                                                <div class="row justify-content-between mt-10">
+                                                    <p
+                                                        class="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
+                                                        •	React.js
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- resume experience row -->
+                                    <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="800"
+                                        class="resume-education mt-4 bg-white">
+                                        <div class="row">
+                                            <!-- experience first column -->
+                                            <div class="col-lg-4 resume-first-item">
+                                                <h4 class="h4 text-black fw-500">
+                                                    Junior IT Officer
+                                                </h4>
+                                                <p class="p secondary-black fw-400 line-height-7 mt-10">
+                                                    ICT Fingers - (2018 - Present)
+                                                </p>
+                                                <p class="p secondary-black fw-400 line-height-7 mt-20">
+                                                    •	Provided first-line support for users, resolving software, hardware, and printer issues
+                                                </p>
+                                            </div>
+                                            <!-- experience second column -->
+                                            <div class="col-lg-4 resume-second-item">
+                                                <h4 class="h4 text-black fw-500">
+                                                    IT Intern
+                                                </h4>
+                                                <p class="p secondary-black fw-400 line-height-7 mt-10">
+                                                    OLUPET AUTOS LIMITED - (2023 - 2024)
+                                                </p>
+                                                <p class="p secondary-black fw-400 line-height-7 mt-20">
+                                                    •	Provide timely technical support to dealership staff for hardware, software, and network issues, ensuring minimal downtime and optimal productivity.  
+                                                </p>
+                                            </div>
+                                            <!-- experience third column -->
+                                            <div class="col-lg-4 resume-third-item">
+                                                <h4 class="h4 text-black fw-500">
+                                                    Web Developer
+                                                </h4>
+                                                <p class="p secondary-black fw-400 line-height-7 mt-10">
+                                                    Freelance - (2023 - Present)
+                                                </p>
+                                                <p class="p secondary-black fw-400 line-height-7 mt-20">
+                                                    •	We build responsive, secure, and high-performing websites using modern web technologies—perfect for startups, businesses, and portfolios.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end resume -->
+        <!-- start contact -->
+        <section id="contact" class="home-contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="home-contact-wrapper">
+                            <div class="section-heading-middle">
+                                <div class="sub-heading d-flex align-items-center mx-auto">
+                                    <img src="img/orangeDot.png" alt="orange-dot">
+                                    <p>My Contact</p>
+                                </div>
+                                <h2 class="black-color line-height-3 h2 text-uppercase text-center">
+                                    I WANT TO HEAR FROM YOU
+                                </h2>
+                            </div>
+                            <div class="home-contact-info-container row row-mobile-margin mt-50 align-items-start">
+                                <div class="col-12 col-md-8">
+                                    <form>
+                                        <div class="row g-4">
+                                            <div class="col-12 col-sm-6">
+                                                <input type="text" class="form-control home-contact-input"
+                                                    placeholder="Your Name">
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <input type="email" class="form-control home-contact-input"
+                                                    placeholder="Your Email">
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <input type="tel" class="form-control home-contact-input"
+                                                    placeholder="Your phone">
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <input type="text" class="form-control home-contact-input"
+                                                    placeholder="Subject">
+                                            </div>
+                                            <div class="col-12">
+                                                <textarea placeholder="Message"
+                                                    class="form-control home-contact-input"></textarea>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="col-12">
+                                                    <button type="submit"
+                                                        class="btn orange-btn btn_effect row-mobile-margin mt-30"><span
+                                                            class="z-1 position-relative">Send Me
+                                                            Message</span></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-12 col-md-4 home-contact-icon-container">
+                                    <div class="row row-mobile-margin gy-3 gy-sm-0">
+                                        <div class="col-12 d-flex align-items-center">
+                                            <div class="mr-10">
+                                                <div class="light-orange-bg-icon">
+                                                    <i class="fa-solid fa-location-dot orange-color"></i>
+                                                </div>
+                                            </div>
+                                            <div class="about-complete-project">
+                                                <h4 class="fw-500 black-color h4">Address</h4>
+                                                <p class="fw-400 secondary-black">
+                                                    <a href="geo:37.7749,-122.4194">
+                                                        Millenium Estate, Gbagada, Lagos State 100271, Nigeria 
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 d-flex align-items-center row-mobile-margin mt-50">
+                                            <div class="mr-10">
+                                                <div class="light-orange-bg-icon">
+                                                    <i class="fa-solid fa-phone-volume orange-color"></i>
+                                                </div>
+                                            </div>
+                                            <div class="about-years-experience">
+                                                <h4 class="fw-500 black-color h4">Phone</h4>
+                                                <p class="fw-400 secondary-black">
+                                                    <a href="tel:+2347040255365">+2347040255365</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 d-flex align-items-center row-mobile-margin mt-50">
+                                            <div class="mr-10">
+                                                <div class="light-orange-bg-icon">
+                                                    <i class="fa-solid fa-envelope orange-color"></i>
+                                                </div>
+                                            </div>
+                                            <div class="about-years-experience">
+                                                <h4 class="fw-500 black-color h4">Email</h4>
+                                                <p class="fw-400 secondary-black">
+                                                    <a href="mailto:olamidemilson5@gmail.com">
+                                                        olamidemilson5@gmail.com
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end contact -->
+        <!-- start footer -->
+        <section class="footer">
+            <div class="footer-wrapper">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-lg-4 mt-5 mt-lg-0">
+                                <div class="footer-col-one">
+                                    <img src="img/MilliTech Logo - Email Signature 2.png" class="footer-logo" alt="footer logo" style="width: 300px;">
+                                    <p class="p text-white line-height-7 mb-30 footer-col-one-texts">
+                                        Detail oriented and results-driven IT professional with hands on experience in system support, customer service, and web development. 
+                                    </p>
+                                    <h3 class="h3 fw-500 line-height-3 text-white fw-500">
+                                        olamidemilson5@gmail.com
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6 col-lg-2 mt-5 mt-lg-0">
+                                <h4 class="h4 fw-500 text-white">
+                                    Explore Link
+                                </h4>
+                                <div class="footer-col-links">
+                                    <ul class="footer-col-link-container">
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white" href="#home-banner">About</a>
+                                        </li>
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white" href="#resume">Resume</a>
+                                        </li>
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white"
+                                                href="#services">Service</a>
+                                        </li>
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white" href="#home-banner">Home</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6 col-lg-2 mt-5 mt-lg-0">
+                                <h4 class="h4 fw-500 text-white">
+                                    My Services
+                                </h4>
+                                <div class="footer-col-links">
+                                    <ul class="footer-col-link-container">
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white" href="">UI/UX
+                                                Design</a>
+                                        </li>
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white" href="">Mobile
+                                                App</a>
+                                        </li>
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white" href="">Graphics
+                                                Design</a>
+                                        </li>
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white" href="">Web
+                                                Developer</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 mt-5 mt-lg-0">
+                                <h4 class="h4 fw-500 text-white">
+                                    Follow me
+                                </h4>
+                                <div class="footer-social-media">
+                                    <ul class="footer-social-container d-flex align-items-center mb-35">
+                                        <li class="footer-social-item-2">
+                                            <a href="">
+                                                <div class="orange-bg-icon">
+                                                    <i class="fa-brands fa-facebook-f text-white h4"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="footer-social-item-2">
+                                            <a href="">
+                                                <div class="orange-bg-icon">
+                                                    <i class="fa-brands fa-twitter text-white h4"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="footer-social-item-2">
+                                            <a href="">
+                                                <div class="orange-bg-icon">
+                                                    <i class="fa-brands fa-github text-white h4"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="footer-social-item-2">
+                                            <a href="">
+                                                <div class="orange-bg-icon">
+                                                    <i class="fa-brands fa-linkedin-in text-white h4"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer-contact">
+                                    <div class="footer-contact-item d-flex align-items-center mb-20">
+                                        <i class="fa-solid fa-location-dot footer-contact-icon mr-10 orange-color"></i>
+                                        <p class="p text-white line-height-7 fw-400">
+                                            Millenium Estate, Gbagada, Lagos State 100271, Nigeria
+                                        </p>
+                                    </div>
+                                    <div class="footer-contact-item d-flex align-items-center mb-20">
+                                        <i class="fa-solid fa-phone-volume footer-contact-icon mr-10 orange-color"></i>
+                                        <p>
+                                            <a class="p text-white line-height-7 fw-400" href="tel:+2347040255365">
+                                                +2347040255365
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="footer-bottom-container">
+                            <div class="row">
+                                <div class="footerbottom-left col-12 col-sm-5 col-md-6">
+                                    <p class="p text-white line-height-7">
+                                        All rights reserved &copy; 2025 Milli
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end footer -->
+    </main>
+    <!-- Preloader -->
+    <div class="loader-mask">
+        <div class="loader">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
 
-
-<!-- ==================== Start epilogue ==================== -->
-		</td>
-		</tr>
-		</table>
-	</td>
-	</tr>
-	</table>
-</td>
-</tr>
-</table>
-
-<table width="76%" border="0" align="center" valign="bottom" cellspacing="0" cellpadding="0">
-	<tr>
-	<td id="footer"><small>&copy; 2008 Xavier Roche & other contributors - Web Design: Leto Kauler.</small></td>
-	</tr>
-</table>
-
+    <!-- Jquery script -->
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <!-- Bootstrap Script -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Magnific-popup script -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Owl carousel script -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- MeanMenu script -->
+    <script src="js/jquery.meanmenu.js"></script>
+    <!-- Line progressbar script -->
+    <script src="js/jquery.lineProgressbar.js"></script>
+    <!-- Multi animated counter -->
+    <script src="js/multi-animated-counter.js"></script>
+    <!-- One page nav script -->
+    <script src="js/onepageNav.js"></script>
+    <!-- font awesome script -->
+    <script src="js/all.min.js"></script>
+    <!-- AOS script -->
+    <script src="js/aos.js"></script>
+    <!-- Animated headline script -->
+    <script src="js/jquery.animatedheadline.min.js"></script>
+    <!-- mixitup -->
+    <script src="js/mixitup.min.js"></script>
+    <!-- jQuery Counterup -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Main JS script -->
+    <script src="js/main.js"></script>
 </body>
 
+
+<!-- Mirrored from credesign.vercel.app/multiPage/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Aug 2025 09:44:16 GMT -->
 </html>
-
-
